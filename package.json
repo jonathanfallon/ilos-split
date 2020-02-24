@@ -1,15 +1,15 @@
 {
   "name": "ilos-split",
   "version": "1.0.0",
-  "description": "",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "build": "lerna run --parallel build"
+    "start": "yarn workspace @split/kernel ilos http 8080",
+    "build": "lerna run --sort build",
+    "build:split": "lerna run --scope @split/* --sort build"
   },
-  "author": "",
   "license": "Apache-2.0",
   "workspaces": [
+    "split/kernel",
     "split/services/*",
     "ilos/packages/*"
   ]

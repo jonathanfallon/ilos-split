@@ -29,3 +29,18 @@ In this example application, we will use ilos to run several microservices in di
                          |                 |
                          +-----------------+
 ```
+
+## Installation
+
+1. clone ilos in `ilos` folder
+2. checkout the `dev` branch (until 0.5.0 is released)
+3. install dependencies
+4. build
+
+```shell
+git clone git@github.com:betagouv/ilos.git
+cd ilos
+git checkout dev
+yarn
+yarn build
+```

@@ -1,0 +1,1 @@
+{"version":3,"file":"ServiceProvider.js","sourceRoot":"","sources":["../src/ServiceProvider.ts"],"names":[],"mappings":";;;;;;;;AAAA;;;;;;GAMG;AACH,yCAA+C;AAC/C,qCAAwE;AAExE,oDAAiD;AAKjD,IAAa,eAAe,GAA5B,MAAa,eAAgB,SAAQ,sBAAuB;CAAG,CAAA;AAAlD,eAAe;IAH3B,wBAAe,CAAC;QACf,QAAQ,EAAE,CAAC,qBAAS,CAAC;KACtB,CAAC;GACW,eAAe,CAAmC;AAAlD,0CAAe"}

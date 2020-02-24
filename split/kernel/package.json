@@ -1,5 +1,5 @@
 {
-  "name": "@split/service_a",
+  "name": "@split/kernel",
   "version": "1.0.0",
   "main": "dist/bootstrap.js",
   "license": "Apache-2.0",
@@ -8,8 +8,8 @@
     "build": "tsc"
   },
   "dependencies": {
+    "@types/node": "12",
     "@ilos/common": "~0",
-    "@ilos/core": "~0",
     "@ilos/framework": "~0"
   }
 }

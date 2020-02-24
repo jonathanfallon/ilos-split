@@ -1,11 +1,6 @@
 {
-  "packages": [
-    "preuve-covoiturage/api/proxy",
-    "preuve-covoiturage/api/providers/*",
-    "preuve-covoiturage/api/packages/*",
-    "ilos/packages/*"
-  ],
-  "version": "independent",
+  "packages": ["split/kernel", "split/services/*", "ilos/packages/*"],
+  "version": "1.0.0",
   "npmClient": "yarn",
   "useWorkspaces": true
 }
