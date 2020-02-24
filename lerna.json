@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "preuve-covoiturage/api/proxy",
+    "preuve-covoiturage/api/providers/*",
+    "preuve-covoiturage/api/packages/*",
+    "ilos/packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

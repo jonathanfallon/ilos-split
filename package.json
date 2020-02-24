@@ -1,0 +1,16 @@
+{
+  "name": "ilos-split",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run --parallel build"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "split/services/*",
+    "ilos/packages/*"
+  ]
+}
